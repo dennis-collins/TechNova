@@ -19,18 +19,6 @@ En AI-baserad kundsupportassistent byggd med React, LangChain.js, Supabase och O
 
 ---
 
-## Funktionalitet
-
-- Chatgränssnitt där användaren kan ställa frågor till kundtjänstboten.
-- Svar genereras på svenska.
-- Botens svar bygger på TechNova AB:s FAQ- och policydokument.
-- Varje svar visar vilka källor (FAQ-delar) som använts.
-- Minneshantering inom sessionen – boten minns tidigare meddelanden.
-- Domänbegränsning: boten svarar endast på frågor som gäller TechNova AB.
-- Hälsningsfraser (t.ex. "Hej", "Hejsan") behandlas separat utan retrieval.
-
----
-
 ## Installation & Körning
 
 ### 1. Installera beroenden
@@ -66,8 +54,7 @@ http://localhost:3000
 
 ## Om .env.local och nycklar
 
-I en riktig produktionsmiljö ska service_role-nyckeln aldrig publiceras.  
-Men för detta utbildningsprojekt bestämde jag att inkludera `.env.local` i inlämningen för att man ska kunna köra projektet utan extra konfiguration.
+I en riktig produktionsmiljö ska service_role-nyckeln aldrig publiceras. Men för detta utbildningsprojekt bestämde jag att inkludera `.env.local` i inlämningen för att man ska kunna köra projektet utan extra konfiguration.
 
 Filen innehåller:
 ```
