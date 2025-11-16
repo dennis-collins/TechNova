@@ -67,7 +67,7 @@ http://localhost:3000
 ## Om .env.local och nycklar
 
 I en riktig produktionsmiljö ska service_role-nyckeln aldrig publiceras.  
-För detta utbildningsprojekt bestämde jag att inkludera `.env.local` i inlämningen för att kunna köra projektet utan extra konfiguration.
+Men för detta utbildningsprojekt bestämde jag att inkludera `.env.local` i inlämningen för att man ska kunna köra projektet utan extra konfiguration.
 
 Filen innehåller:
 ```
