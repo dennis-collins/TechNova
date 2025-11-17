@@ -19,6 +19,14 @@ En AI-baserad kundsupportassistent byggd med React, LangChain.js, Supabase och O
 
 ---
 
+## Om .env.local och nycklar
+
+Projektet använder en .env.local-fil för Supabase- och Ollama-konfiguration. Filen är inte inkluderad i GitHub-repositoriet utan finns endast lokalt.
+
+En mall med samma variabler finns i .env.example för att visa vilka värden som behövs för att köra projektet.
+
+---
+
 ## Installation & Körning
 
 ### 1. Installera beroenden
@@ -74,14 +82,6 @@ Förväntat: korrekta svar + relevanta källor.
 
 Förväntat:
 Bot förklarar att den endast kan svara på frågor som rör TechNova AB.
-
----
-
-## Om .env.local och nycklar
-
-Projektet använder en .env.local-fil för Supabase- och Ollama-konfiguration. Filen är inte inkluderad i GitHub-repositoriet utan finns endast lokalt.
-
-En mall med samma variabler finns i .env.example för att visa vilka värden som behövs för att köra projektet.
 
 ---
 
