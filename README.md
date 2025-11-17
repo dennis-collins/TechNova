@@ -79,17 +79,9 @@ Bot förklarar att den endast kan svara på frågor som rör TechNova AB.
 
 ## Om .env.local och nycklar
 
-I en riktig produktionsmiljö ska service_role-nyckeln aldrig publiceras. Men för detta utbildningsprojekt bestämde jag att inkludera `.env.local` i inlämningen för att man ska kunna köra projektet utan extra konfiguration.
+Projektet använder en .env.local-fil för Supabase- och Ollama-konfiguration. Filen är inte inkluderad i GitHub-repositoriet utan finns endast lokalt.
 
-Filen innehåller:
-```
-REACT_APP_SUPABASE_URL=...
-REACT_APP_SUPABASE_ANON_KEY=...
-SUPABASE_SERVICE_ROLE_KEY=...
-REACT_APP_OLLAMA_BASE_URL=http://localhost:11434
-```
-
-I en riktig produktion som inte var en del av en utbildning skulle denna fil läggas i `.gitignore`.
+En mall med samma variabler finns i .env.example för att visa vilka värden som behövs för att köra projektet.
 
 ---
 
